@@ -3,6 +3,7 @@ package com.lwt.springbootmybatisxml.bean;
 public class TAdmin {
     private Integer id;
 
+
     private String loginacct;
 
     private String userpswd;
