@@ -14,6 +14,7 @@ public class AdminController {
 
     @GetMapping("/getAdminById")
     public TAdmin getAdminById (Integer id){
+        System.out.println(id);
         return adminService.get(id);
     }
 }

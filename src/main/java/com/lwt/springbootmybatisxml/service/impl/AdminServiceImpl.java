@@ -18,6 +18,7 @@ public class AdminServiceImpl implements AdminService {
 
     @Override
     public TAdmin get(Integer id) {
-            return adminMapper.getAdminById(id);
+        System.out.println(2);
+        return adminMapper.getTAdminById(id);
     }
 }
